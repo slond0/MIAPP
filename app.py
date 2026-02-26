@@ -10,7 +10,7 @@ image = Image.open('img.png')
 st.image(image, caption='Punch y nuestras versiones pasadas')
 
 
-texto = st.text_input('¿Recuerdas una situación en la que te sentiste como Punch?'', 'Este es mi texto')
+texto = st.text_input('¿Recuerdas una situación en la que te sentiste como Punch?', 'Este es mi texto')
 st.write('El texto escrito es', texto)
 
 st.subheader("Ahora usemos 2 Columnas")
