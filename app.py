@@ -1,10 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Glam page")
+st.title("Efecto Punch")
 
-st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales.")
-st.write("Facilmente puedo realizar backend y frontend.")
+st.header("Tal vez no amamos a Punch solo por tendencia, sino porque conecta con esas versiones nuestras que alguna vez se sintieron igual.")
+st.write("Este espacio no es solo fandom. Es una pequeña exploración sobre empatía, identificación y esos momentos en los que también fuimos un poco Punch.")
 image = Image.open('img.png')
 
 st.image(image, caption='Interfaces multimodales')
